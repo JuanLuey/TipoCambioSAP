@@ -46,6 +46,8 @@ public class GetTCSAPApplication implements CommandLineRunner {
 		}
 		log.info("Final process ");
 
+		 //repoData.process();
+
 	}
 
 	TipoCambio tipoCambio;

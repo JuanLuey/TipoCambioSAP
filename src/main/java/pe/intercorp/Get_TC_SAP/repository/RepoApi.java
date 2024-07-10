@@ -41,6 +41,7 @@ public class RepoApi {
         objectMapper.configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false);
 
         Request request = new Request.Builder()
+                //https://p-apigee.api-spsa.pe/zbapi_tipo_cambio_2/ZBAPI_TIPO_CAMBIO_2
                 .url("https://"+ api_url +"/zbapi_tipo_cambio_2/ZBAPI_TIPO_CAMBIO_2")
                 .method("POST", body)
                 .addHeader("Content-Type", "application/json")
